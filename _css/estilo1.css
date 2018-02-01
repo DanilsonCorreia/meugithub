@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body{
+	background-color: rgb(30,144,255);
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: courier;
+	font-size: 50px;
+	position: relative;
+	top:110px;
+}
+img#music{
+	width: 200px;
+	height: 90px;
+	
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+
+img#pasta{
+	width: 210px;
+	height: 130px;
+	
+	display: block;
+	position: absolute;
+	top: 430px;
+	left:87%;
+	margin-left:-115px;
+}
+p#outro{
+	text-align: center;
+	color: #606060;
+	font-size: 20px;
+	position: relative;
+	top: 100px;
+	margin:0px 140px 40px 140px;
+	background-color: #ffffff;
+	font-family: andalus;
+
+}
+p#roda{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	top: 10px;
+}
+
+nav#menu{
+	display: block;
+}
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;	
+	position: absolute;
+	top: -20px;
+	left:50%;
+	margin-left: -230px;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color:rgb(30,144,255);
+	padding: 5px;
+	margin: 4px;
+	transition: background-color 1s;
+}
+nav#menu li:hover{
+	background-color: #606060;
+}
+nav#menu a{
+	color: #ffffff;
+	text-decoration: none;
+
+}
+nav#menu a:hover {
+	color: yellow;
+}
+section#corpo{
+	display: block;
+	height: 530px;
+}
+footer#rodape{
+	clear: both; 
+	
+	
+}
+p#roda a{
+	color: #ffffff;
+}
+p#roda a:hover {
+	color: yellow;
+}
